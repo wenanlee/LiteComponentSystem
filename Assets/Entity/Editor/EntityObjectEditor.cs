@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(EntityObject))]
+[CustomEditor(typeof(EntityObject),true)]
 public class EntityObjectEditor : Editor
 {
     private SerializedObject volumeSerializedObject;

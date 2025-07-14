@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
-[CreateAssetMenu(fileName ="CustomComponentVolume",menuName = "EFramework/CustomComponentVolume")]
+[CreateAssetMenu(fileName = "EntityComponentVolume", menuName = "EntityComponentVolume")]
 public class EntityComponentVolume : ScriptableObject
 {
     [SerializeReference]
